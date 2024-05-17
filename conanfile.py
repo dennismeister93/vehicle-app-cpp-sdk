@@ -24,7 +24,7 @@ from conans import ConanFile, tools
 class VehicleAppCppSdkConan(ConanFile):
     name = "vehicle-app-sdk"
     license = "Apache-2.0"
-    url = "https://github.com/eclipse-velocitas/vehicle-app-cpp-sdk"
+    url = "https://github.com/USER/vehicle-app-cpp-sdk"
     description = "The Vehicle App SDK for c++ allows to create Vehicle Apps from the Velocitas development model in the c++ programming language."
     # In general: Pin recipe revisions of dependencies having further dependencies to avoid build issues due to updated recipes
     # Workaround1: Pin recipe revision for transient dependency googleapis for enabling the container build

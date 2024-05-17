@@ -21,7 +21,7 @@ from conans import ConanFile
 class VehicleAppSdkTest(ConanFile):
     name = "vehicle_app_sdk_test"
     license = "Apache-2.0"
-    url = "https://github.com/eclipse-velocitas/vehicle-app-cpp-sdk"
+    url = "https://github.com/USER/vehicle-app-cpp-sdk"
     
     settings = "os", "compiler", "build_type", "arch"
     
